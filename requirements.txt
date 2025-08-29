@@ -1,0 +1,28 @@
+# ===== 车辆检测系统依赖包 =====
+# 核心依赖包 - 必需
+ultralytics>=8.3.0          # YOLO模型和跟踪
+opencv-python>=4.8.0        # 计算机视觉处理
+numpy>=1.21.0,<2.0.0        # 数值计算
+torch>=2.0.0                 # PyTorch深度学习框架
+torchvision>=0.15.0          # PyTorch视觉工具
+
+# 进度条和工具
+tqdm>=4.64.0                # 进度条显示
+
+# ===== 可选依赖包 =====
+# 如果需要可视化功能，取消注释以下行：
+# matplotlib>=3.6.0          # 图表绘制
+# seaborn>=0.12.0            # 统计图表
+
+# 如果需要Excel输出，取消注释以下行：
+# openpyxl>=3.1.0            # Excel文件处理
+
+# 如果需要高级ML功能，取消注释以下行：
+# scipy>=1.9.0               # 科学计算
+# scikit-learn>=1.2.0        # 机器学习工具
+
+# ===== 系统要求 =====
+# Python版本: 3.8+
+# 操作系统: Windows 10+, Linux, macOS
+# GPU: 推荐NVIDIA GPU (CUDA支持)
+# 内存: 最低4GB，推荐8GB+ 
