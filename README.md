@@ -163,20 +163,6 @@ VEHICLE_CLASSES = {
 - **Duration Display**: Parking time for each violation
 - **Timestamp Information**: When violations occurred
 
-## 🔍 Troubleshooting
-
-### Common Issues
-1. **Low Detection Rate**: Lower confidence threshold in config.py
-2. **False Movement Detection**: Adjust color change threshold
-3. **ID Jumping**: Increase track buffer and confirmation frames
-4. **Memory Issues**: Reduce position memory size
-
-### Performance Optimization
-- **Model Selection**: Use lighter YOLO models for faster processing
-- **Frame Skipping**: Process every nth frame for speed
-- **Resolution Reduction**: Lower input video resolution
-- **Batch Processing**: Process multiple frames simultaneously
-
 ## 📈 Future Enhancements
 
 ### Planned Features
@@ -199,3 +185,4 @@ This system is designed for educational and research purposes. For commercial us
 ---
 
 **Note**: This system is optimized for parking lot surveillance and traffic monitoring applications. Adjust parameters based on your specific use case and environmental conditions.
+
